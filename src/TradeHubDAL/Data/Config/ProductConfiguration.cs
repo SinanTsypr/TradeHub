@@ -19,8 +19,8 @@ namespace TradeHubDAL.Data.Config
             builder.Property(x => x.Brand)
                 .HasMaxLength(30);
 
-            builder.HasKey(x => x.SellPrice)
-                .HasPrecision(18, 2);
+            //builder.HasKey(x => x.SellPrice)
+            //    .HasPrecision(18, 2);
         }
     }
 }
