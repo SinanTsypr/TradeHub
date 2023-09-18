@@ -23,6 +23,5 @@ namespace TradeHubBLL.Entities
 
         public List<Product> Products { get; set; } = new();
         public List<Current> Currents { get; set; } = new();
-        //public List<IdentityUser> MyProperty { get; set; }
     }
 }

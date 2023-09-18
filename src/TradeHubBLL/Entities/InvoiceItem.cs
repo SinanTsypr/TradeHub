@@ -19,6 +19,6 @@ namespace TradeHubBLL.Entities
         public decimal TotalPrice { get; set; }
 
 
-        public Invoice Invoice { get; set; } = new();
+        public Invoice Invoice { get; set; } = null!;
     }
 }

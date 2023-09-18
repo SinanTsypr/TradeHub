@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,5 +20,7 @@ namespace TradeHubBLL.Entities
         public string CurrentCity { get; set; } = null!;
 
         public string CurrentMail { get; set; } = null!;
+
+        public SalesTransaction SalesTransaction { get; set; } = null!;
     }
 }
